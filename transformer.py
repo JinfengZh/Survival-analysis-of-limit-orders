@@ -5,7 +5,7 @@ from kan import KAN
 import math
 import copy
 from torch.autograd import Variable
-
+## https://nlp.seas.harvard.edu/annotated-transformer/
 def clones(module, N):
     "Produce N identical layers."
     return nn.ModuleList([copy.deepcopy(module) for _ in range(N)])
